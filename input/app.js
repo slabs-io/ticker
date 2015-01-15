@@ -6,7 +6,7 @@
 var compileObject = function (){
 
   // gets the value of the input box
-  var searchQuery   = $('#tickInterval').val();
+  var tickInterval   = $('#tickInterval').val();
 
   var settings = {
     tickInterval : tickInterval,
