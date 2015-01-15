@@ -6,13 +6,10 @@
 var compileObject = function (){
 
   // gets the value of the input box
-  var searchQuery   = $('#searchQuery').val();
-
-  var siteUrl       = $('#siteUrl').val();
+  var searchQuery   = $('#tickInterval').val();
 
   var settings = {
-    searchTerm : searchQuery,
-    siteUrl : siteUrl
+    tickInterval : tickInterval,
   };
 
   console.log(settings);

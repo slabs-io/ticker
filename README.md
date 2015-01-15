@@ -1,7 +1,7 @@
-page-scraper
+ticker
 =============
 
-##A page scraping module for use with slabs.io.
+##The ticker module for use with slabs.io.
 
 Before use run :
 ```

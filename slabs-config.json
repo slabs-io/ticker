@@ -1,7 +1,0 @@
-{
-  "name" : "page scraper",
-  "type" : "source",
-  "connectionsIn" : 1,
-  "connectionsOut" : 3,
-  "values" : ["mentions", "titleMentions"]
-}
