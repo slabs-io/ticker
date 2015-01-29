@@ -1,0 +1,28 @@
+{
+  "name" : "Ticker",
+  "description" : "The heart of the trend engine, this module trigger a run of the network.",
+  "type" : "ticker",
+  "connectionsIn" : 0,
+  "connectionsOut" : 3,
+  "settings" : {
+    "tickInterval": {
+      "type": "integer",
+      "default": 30,
+      "minimum": 10,
+      "maximum": 20000,
+      "title": "Tick Interval (minutes)"
+    },
+    "experimentLength": {
+      "type": "integer",
+      "default": 20,
+      "minimum": 2,
+      "maximum": 200,
+      "title": "Experiment Length (ticks)",
+      "description": "how long do you want your experiment to run"
+    }
+  },
+  "source": {
+    "label": "Core Slab",
+    "url": "http://slabs.io/"
+  }
+}
