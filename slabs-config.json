@@ -4,21 +4,24 @@
   "type" : "ticker",
   "connectionsIn" : 0,
   "connectionsOut" : 3,
-  "settings" : {
-    "tickInterval": {
-      "type": "integer",
-      "default": 30,
-      "minimum": 10,
-      "maximum": 20000,
-      "title": "Tick Interval (minutes)"
-    },
-    "experimentLength": {
-      "type": "integer",
-      "default": 20,
-      "minimum": 2,
-      "maximum": 200,
-      "title": "Experiment Length (ticks)",
-      "description": "how long do you want your experiment to run"
+  "schema" : {
+    "type": "object",
+    "properties" : {
+      "tickInterval": {
+        "type": "integer",
+        "default": 30,
+        "minimum": 10,
+        "maximum": 20000,
+        "title": "Tick Interval (minutes)"
+      },
+      "experimentLength": {
+        "type": "integer",
+        "default": 20,
+        "minimum": 2,
+        "maximum": 200,
+        "title": "Experiment Length (ticks)",
+        "description": "how long do you want your experiment to run"
+      }
     }
   },
   "source": {
