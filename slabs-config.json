@@ -3,7 +3,7 @@
   "description" : "The heart of the trend engine, this module trigger a run of the network.",
   "type" : "ticker",
   "connectionsIn" : 0,
-  "connectionsOut" : 3,
+  "connectionsOut" : -1,
   "schema" : {
     "type": "object",
     "properties" : {
