@@ -10,7 +10,7 @@
       "tickInterval": {
         "type": "integer",
         "default": 30,
-        "minimum": 10,
+        "minimum": 1,
         "maximum": 20000,
         "title": "Tick Interval (minutes)"
       },
