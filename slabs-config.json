@@ -15,15 +15,6 @@
         "maximum": 20000,
         "title": "Tick Interval (minutes)",
         "brief": "Interval"
-      },
-      "experimentLength": {
-        "type": "integer",
-        "default": 20,
-        "minimum": 2,
-        "maximum": 200,
-        "title": "Experiment Length (ticks)",
-        "brief": "Length",
-        "description": "how long do you want your experiment to run"
       }
     }
   },
